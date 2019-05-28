@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="actions">
+        <in>array.c</in>
+        <in>pan.c</in>
+        <in>rotate.c</in>
+        <in>select.c</in>
+      </df>
+      <df name="objects">
+        <in>QCADCell.c</in>
+        <in>QCADCellRendererLayerList.c</in>
+        <in>QCADCellRendererVT.c</in>
+        <in>QCADClockCombo.c</in>
+        <in>QCADCompoundDO.c</in>
+        <in>QCADDOContainer.c</in>
+        <in>QCADDesignObject.c</in>
+        <in>QCADLabel.c</in>
+        <in>QCADLayer.c</in>
+        <in>QCADPrintDialog.c</in>
+        <in>QCADRuler.c</in>
+        <in>QCADStretchyObject.c</in>
+        <in>QCADSubstrate.c</in>
+        <in>QCADTreeViewContainer.c</in>
+        <in>QCADUndoEntry.c</in>
+        <in>QCADUndoEntryGroup.c</in>
+        <in>mouse_handlers.c</in>
+        <in>object_helpers.c</in>
+      </df>
+      <in>about.c</in>
+      <in>bistable_properties_dialog.c</in>
+      <in>bistable_simulation.c</in>
+      <in>bus_layout_dialog.c</in>
+      <in>callbacks.c</in>
+      <in>coherence_vector.c</in>
+      <in>coherence_vector_energy.c</in>
+      <in>coherence_vector_energy_properties_dialog.c</in>
+      <in>coherence_vector_properties_dialog.c</in>
+      <in>custom_widgets.c</in>
+      <in>design.c</in>
+      <in>exp_array.c</in>
+      <in>exp_pixmap.c</in>
+      <in>file_selection_window.c</in>
+      <in>fileio.c</in>
+      <in>fileio_helpers.c</in>
+      <in>generic_utils.c</in>
+      <in>graph_dialog.c</in>
+      <in>graph_dialog_callbacks.c</in>
+      <in>graph_dialog_data.c</in>
+      <in>graph_dialog_interface.c</in>
+      <in>graph_dialog_widget_data.c</in>
+      <in>gtk_preamble.c</in>
+      <in>honeycomb_thresholds_dialog.c</in>
+      <in>hsl2rgb.c</in>
+      <in>interface.c</in>
+      <in>layer_mapping_dialog.c</in>
+      <in>layer_order_dialog.c</in>
+      <in>layer_properties_dialog.c</in>
+      <in>main.c</in>
+      <in>main_batch_sim.c</in>
+      <in>main_graph_dialog.c</in>
+      <in>print.c</in>
+      <in>print_graph.c</in>
+      <in>print_graph_properties_dialog.c</in>
+      <in>print_preview.c</in>
+      <in>print_properties_dialog.c</in>
+      <in>print_properties_dialog_interface.c</in>
+      <in>print_util.c</in>
+      <in>recent_files.c</in>
+      <in>scale_dialog.c</in>
+      <in>selection_renderer.c</in>
+      <in>selection_undo.c</in>
+      <in>sim_engine_setup_dialog.c</in>
+      <in>simulation.c</in>
+      <in>simulation_data.c</in>
+      <in>support.c</in>
+      <in>translate_selection_dialog.c</in>
+      <in>vector_table.c</in>
+      <in>vector_table_options_dialog.c</in>
+      <in>vector_table_options_dialog_callbacks.c</in>
+      <in>vector_table_options_dialog_data.c</in>
+      <in>vector_table_options_dialog_interface.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-g -O2"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>QCADesigner</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>ENABLE_NLS=1</Elem>
+              <Elem>GETTEXT_PACKAGE="QCADesigner"</Elem>
+              <Elem>HAVE_BIND_TEXTDOMAIN_CODESET=1</Elem>
+              <Elem>HAVE_DCGETTEXT=1</Elem>
+              <Elem>HAVE_GETTEXT=1</Elem>
+              <Elem>HAVE_INTTYPES_H=1</Elem>
+              <Elem>HAVE_LC_MESSAGES=1</Elem>
+              <Elem>HAVE_LOCALE_H=1</Elem>
+              <Elem>HAVE_MEMORY_H=1</Elem>
+              <Elem>HAVE_STDINT_H=1</Elem>
+              <Elem>HAVE_STDLIB_H=1</Elem>
+              <Elem>HAVE_STRINGS_H=1</Elem>
+              <Elem>HAVE_STRING_H=1</Elem>
+              <Elem>HAVE_SYS_STAT_H=1</Elem>
+              <Elem>HAVE_SYS_TYPES_H=1</Elem>
+              <Elem>HAVE_UNISTD_H=1</Elem>
+              <Elem>PACKAGE="QCADesigner"</Elem>
+              <Elem>PACKAGE_BUGREPORT=""</Elem>
+              <Elem>PACKAGE_DATA_DIR="/home/frank/qcae/share"</Elem>
+              <Elem>PACKAGE_LOCALE_DIR="/home/frank/qcae/share/locale"</Elem>
+              <Elem>PACKAGE_NAME=""</Elem>
+              <Elem>PACKAGE_SOURCE_DIR="/home/leomax/Documents/POC/repo_poc/QCADesignerE"</Elem>
+              <Elem>PACKAGE_STRING=""</Elem>
+              <Elem>PACKAGE_TARNAME=""</Elem>
+              <Elem>PACKAGE_URL=""</Elem>
+              <Elem>PACKAGE_VERSION=""</Elem>
+              <Elem>STDC_HEADERS=1</Elem>
+              <Elem>STDIO_FILEIO</Elem>
+              <Elem>VERSION="2.0.3E"</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="about.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="actions/array.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="actions/pan.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="actions/rotate.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="actions/select.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="bistable_properties_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="bistable_simulation.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="bus_layout_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="callbacks.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="coherence_vector.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="coherence_vector_energy.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="coherence_vector_energy_properties_dialog.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="coherence_vector_properties_dialog.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="custom_widgets.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="design.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="exp_array.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="exp_pixmap.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <folder path="0/actions">
+        <cTool>
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/objects">
+        <cTool>
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <item path="file_selection_window.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="fileio.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="fileio_helpers.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="generic_utils.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="graph_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="graph_dialog_callbacks.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="graph_dialog_data.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="graph_dialog_interface.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="graph_dialog_widget_data.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="gtk_preamble.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="honeycomb_thresholds_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="hsl2rgb.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="interface.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="layer_mapping_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="layer_order_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="layer_properties_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="main_batch_sim.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="main_graph_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>GTK_GUI</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="objects/QCADCell.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADCellRendererLayerList.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADCellRendererVT.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADClockCombo.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADCompoundDO.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADDOContainer.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADDesignObject.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADLabel.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADLayer.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADPrintDialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADRuler.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADStretchyObject.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADSubstrate.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADTreeViewContainer.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADUndoEntry.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/QCADUndoEntryGroup.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/mouse_handlers.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="objects/object_helpers.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="print.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="print_graph.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="print_graph_properties_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="print_preview.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="print_properties_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="print_properties_dialog_interface.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="print_util.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="recent_files.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="scale_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="selection_renderer.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="selection_undo.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="sim_engine_setup_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="simulation.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="simulation_data.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="support.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="translate_selection_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="vector_table.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="vector_table_options_dialog.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="vector_table_options_dialog_callbacks.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="vector_table_options_dialog_data.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="vector_table_options_dialog_interface.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/gtk-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/gtk-2.0/include</pElem>
+            <pElem>/usr/include/gio-unix-2.0</pElem>
+            <pElem>/usr/include/cairo</pElem>
+            <pElem>/usr/include/pango-1.0</pElem>
+            <pElem>/usr/include/atk-1.0</pElem>
+            <pElem>/usr/include/pixman-1</pElem>
+            <pElem>/usr/include/libpng12</pElem>
+            <pElem>/usr/include/gdk-pixbuf-2.0</pElem>
+            <pElem>/usr/include/harfbuzz</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DESIGNER</Elem>
+            <Elem>GTK_GUI</Elem>
+            <Elem>UNDO_REDO</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
